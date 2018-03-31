@@ -2,7 +2,7 @@
 {
     width: 960px;
     margin: 0 auto;
-    height: 1271px;
+    height: 100%;
 }
 
 .quotes 
@@ -30,7 +30,7 @@
 
 .img_panda
 {
-    margin-left: 0px;
+    
     float: left;
     height: 350px;
     width: 330px;
@@ -51,7 +51,7 @@
     font: 400 19px/32px Georgia;
     color: #555555;
     margin-left: 390px;
-    margin-top: 31px;
+    margin-top: 52px;
   
 }
 
@@ -64,22 +64,23 @@
 
 .title
 {
-    font: 700 24px/32px Open Sans, sans-serif;
-    margin-top: 20px;
+    font: 600 24px/32px Open Sans, sans-serif;
     color: #15a98b;
+    height: 50px;
 }
 
 .qualities
 {
     font: 400 19px/36px Georgia;
     color: #555555;
-    margin-left: 17px;
-    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 60px;
 }
 
 .content
 {
-    margin-top: -465px;
+    margin-top: -500px;
+    width: 390px;
 }
 
 .line
@@ -104,10 +105,18 @@
 .link
 {
     color: #15a98b; 
+    text-decoration: none;
 }
 
+.lin
+{
+    text-decoration: underline;
+}
 
-
+.clear
+{
+    clear: both;
+}
 
 
 
