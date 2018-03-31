@@ -66,7 +66,7 @@
 {
     font: 600 24px/32px Open Sans, sans-serif;
     color: #15a98b;
-    height: 50px;
+    height: 0px;
 }
 
 .qualities
@@ -75,6 +75,7 @@
     color: #555555;
     margin-left: 20px;
     margin-bottom: 60px;
+    padding-top: 30px;
 }
 
 .content

@@ -2,12 +2,10 @@
 <html lang="ru">
   <head>
     <title>my page</title>
-    <style>
-      @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&subset=cyrillic');
-    </style>
-      <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
   </head> 
   <body> 
     <div class="menu">
@@ -18,112 +16,91 @@
         <a href="#film" class="button my_films">
         <i class="fas fa-video"></i> Любимые фильмы</a>
     </div>
-    <img class="img_backgr" src="images/background.jpg" alt="backgr">
+    <img class="img_backgr" src="images/background.jpg" alt="backgr" />
       <div class="content">
-        <div class="up_block">
-          <img class="img_panda" src="images/панда.jpg" alt="panda" >
+        <div class="left_block">
+          <img class="img_panda" src="images/панда.jpg" alt="panda" />
+          <div class="information">
+            <span class="title">Любимые писатели:</span>
+            <div class="block authors">
+              <ul>
+                <li>Джоан Роулинг</li>
+                <li>Роберт Говард</li>
+                <li>Стив Перри</li>
+                <li>Джон Рональд Руэл Толкин</li>
+              </ul>
+            </div>
+            <span class="title"><a id="film"></a>Любимые фильмы:</span>
+            <div class="block namefilms">
+              <ol>
+                <li>Форсаж 1-8</li>
+                <li>Неудержимые 1-3</li>
+                <li>Джек Ричер 2</li>
+                <li>Миссия невыполнима 5</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+        <div class="right_block">
           <blockquote class="citations">
             Ничто не истина - все дозволено
           </blockquote> 
           <div class="author">
             -Хасана ибн Саббаха
           </div>
-        </div>
-        <h1 class="name">
-          <a id="inf"></a>
-          Андрей Чесноков
-        </h1> 
-        <p class="line"></p>
-        <div class="description">
-          <p>
-            Меня зовут Андрей. Родился в 2001 году в городе Йошкар-ола. До того как пришел в лицей "Инфотех", я учился в лицее им. М. В. Ломоносова.
-          </p>
-        </div>
-          <h2 class="hobbies">
-            <a id="hob"></a>
-            Мое хобби
-          </h2>
-        <div class="description">
-          <p>
-            Большую часть свободного времени у меня уходит на спорт.Я с детства был спортивным и щас пытаюсь оставаться в этой форме.
-          </p>
-        </div>
-          <p class="navigation">
-            <a href="https://vk.com/drewschesnokov" class="link">Напиши мне →</a>
-          </p>
-        <div class="information">
-          <h3 class="title">
-            Любимые писатели:
-          </h3>
-        <div class="qualities">
-          <ul>
-            <li>Джоан Роулинг</li>
-            <li>Роберт Говард</li>
-            <li>Стив Перри</li>
-          </ul>
-        </div>
-        <h3 class="title">
-          <a id="film"></a>
-          Любимые фильмы:
-        </h3>
-        <div class="qualities">
-          <ol>
-            <li>Форсаж 1-8</li>
-            <li>Неудержимые 1-3</li>
-            <li>Джек Ричер 2</li>
-            <li>Миссия невыполнима 5</li>
-          </ol>
-        </div>
+          <h1 class="name"><a id="inf"></a>Андрей Чесноков</h1> 
+          <p class="line"></p>
+          <div class="description">
+            <p>Меня зовут Андрей. Родился в 2001 году в городе Йошкар-ола. До того как пришел в лицей "Инфотех", я учился в лицее им. М. В. Ломоносова. Увлекаюсь спортом, в частности борьбой. Сам имею 1 взрослый разряд по дзюдо. Занимаюсь уже около 8 лет.</p>
+          </div>
+          <h2 class="hobbies"><a id="hob"></a>Мое хобби</h2>
+          <div class="description">
+            <p>Большую часть свободного времени у меня уходит на спорт.Я с детства был спортивным и щас пытаюсь оставаться в этой форме. Но в учебное время не так много времени, поэтому больше сижу за уроками. Большое внимание уделяю физике,в отличии от других предметов</p>
+          </div>
+          <p class="navigation"><a href="https://vk.com/drewschesnokov" class="link"><span class="arrow">Напиши мне</span> &rarr;</a></p>
         </div>
       </div>
-      <!--
-      <h4 class="favorite_film">
-        Любимые фильмы
-      </h4>
-      
+    
+    
+      <p class="favorite_film">Любимые фильмы</p>
       <div class="main_block_films">
-      
+        
         <div class="film one">
-          <img class="img_fastandfurious" src="images/fastandfurious.jpg" alt="forsag">
-          <h5 class="movie_titles">
-            Форсаж 1-8
-          </h5>
+          <img class="img_fastandfurious" src="images/fastandfurious.jpg" alt="forsag" />
+          <h3 class="movie_titles">Форсаж 1-8</h3>
           <p class="text_films">
             Главный герой — полицейский под прикрытием Брайан О’Коннер (Уокер, Пол). Его цель — быть принятым в автобанду легендарного уличного гонщика Доминика Торетто (Вин Дизель), которого подозревают в налётах на грузовики с бытовой техникой.Фильм собирает вместе главных героев первого фильма: полицейского Брайана (Пол Уокер) и семью Доминика Торетто (Вин Дизель) — сестру Мию (Джордана Брюстер) и его девушку Летти (Мишель Родригес). В этот раз Доминику и Брайану придётся поработать вместе — им предстоит втереться в доверие к известному наркобарону по имени Артуро Брага (Джон Ортис). У каждого из героев свой резон, чтобы наказать злодея.
           </p>
         </div>
         
         <div class="film two">
-          <img class="img_irresistible" src="images/неудержимые.jpg" alt="irresistible">
-          <h5 class="movie_titles">
-            Неудержимые 1-3
-          </h5>
+          <img class="img_irresistible" src="images/неудержимые.jpg" alt="irresistible" />
+          <h3 class="movie_titles">Неудержимые 1-3</h3>
           <p class="text_films">
             Главные герои фильма — группа элитных наёмников, выполняющих самые разнообразные задания — от спасения заложников, до свержения диктаторов. Некто «Храм» нанимает их для ликвидации генерала Гарзы — правителя небольшого острова Вилена, расположенного между Мексиканским заливом и Южной Америкой.Отряд «Неудержимые», состоящий из его лидера Барни Росса, эксперта по холодному оружию Ли Кристмаса, мастера рукопашного боя Инь Яна, психически неуравновешенного инженера-химика Гуннара Йенсена, специалиста по тяжёлому оружию Хэйла Цезаря, эксперта-подрывника Толла Роуда, а также новичка, снайпера Билли Тиммонса, прибывает в Непал для выполнения очередной спецоперации.
           </p>
         </div>
         
         <div class="film three">
-          <img class="img_jackr" src="images/jack.jpg" alt="jack">
-          <h5 class="movie_titles">
-            Джек Ричер 2
-          </h5>
+          <img class="img_jackr" src="images/jack.jpg" alt="jack" />
+          <h3 class="movie_titles">Джек Ричер 2</h3>
           <p class="text_films">
             Джек Ричер решил взять передышку и вернуться в родное 110-е подразделение военной полиции, где он когда-то был начальником. Тем более у него есть дополнительный интерес — действующий командир части, майор Сьюзан Тернер. Именно майор Тернер выручила его, сообщая своим волнующим голосом по телефону ценную информацию, которая помогла Джеку Ричеру выпутаться из серьезных неприятностей. И вот теперь у него есть возможность поблагодарить коллегу лично. Вот только оказавшись в расположении части, Ричер узнает, что буквально на днях Сьюзан арестовали за получение крупной взятки. А его самого обвинили в убийстве шестнадцатилетней давности, о событиях которого он ничего не помнит.
           </p>
         </div>
       
         <div class="film four">
-          <img class="img_mission" src="images/mission.jpg" alt="mission">
-          <h5 class="movie_titles">
-            Миссия невыполнима 5
-          </h5>
+          <img class="img_mission" src="images/mission.jpg" alt="mission" />
+          <h3 class="movie_titles"> Миссия невыполнима 5</h3>
           <p class="text_films">
             Когда ОМН распускают, и Итан Хант остается не у дел, его команда неожиданно сталкивается с разветвленной международной сетью высокопрофессиональных спецагентов — Синдикатом. Это «племя изгоев» одержимо идеей установления нового мирового порядка и планирует серию разрушительных терактов. Итан и компания объединяются с дискредитированным британским агентом Илсой Фауст и приступают к своей самой невыполнимой миссии, понимая, что каждый из них может оказаться на стороне Синдиката.
           </p>
         </div>
+        <div class="button_all_films">
+          <a href="https://www.ivi.ru/movies" class="all_films">Все фильмы</a>
+        </div>
+        
       </div> 
-      -->
-    
+     <div class="clear"></div>
   </body>
 </html>
