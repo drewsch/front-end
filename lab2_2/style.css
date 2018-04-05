@@ -114,6 +114,11 @@
     text-decoration: underline;
 }
 
+.lin:hover
+{
+    color: #098d72;  
+}
+
 .clear
 {
     clear: both;
