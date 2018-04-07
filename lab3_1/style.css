@@ -1,3 +1,4 @@
+
 .menu
 {     
     width: 960px;
@@ -175,7 +176,7 @@
 {
     
     padding-top: 42px;
-    width: 100%;
+    width: 1200px;
 }
 
 .img_fastandfurious
@@ -207,8 +208,9 @@
 
 .film
 {
-    display: inline-block;
-    vertical-align: top;
+    float: left;
+    /*display: inline-block;*/
+    /*vertical-align: top;*/
     width: 300px;
     margin: 0 auto;
 }
@@ -227,9 +229,8 @@
 
 .button_all_films
 {    
-    padding-top: 43px;
+    margin-top: 300px;
     width: 220px;
-    height: 50px;
     margin-left: 480px;
 }
 
@@ -242,6 +243,7 @@
     background-color: #15a98c;
     border-radius: 8px;
     font: 19px/ 50px "georgia";
+    height: 50px;
 }
 
 
