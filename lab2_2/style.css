@@ -39,9 +39,9 @@
 
 .name
 {
-    margin-left: 390px;
+    margin-left: 394px;
     font: 700 48px/42px Open Sans, sans-serif;
-    padding-top:  166px;
+    padding-top:  172px;
     color: #333333;
 }
 
@@ -51,7 +51,7 @@
     font: 400 19px/32px Georgia;
     color: #555555;
     margin-left: 390px;
-    margin-top: 52px;
+    margin-top: 0px;
   
 }
 
@@ -60,13 +60,14 @@
     font: 400 36px/42px Open Sans, sans-serif;
     margin-left: 390px;
     margin-top: 50px;
+    margin-bottom: 31px;
 }
 
 .title
 {
     font: 600 24px/32px Open Sans, sans-serif;
     color: #15a98b;
-    height: 0px;
+  
 }
 
 .qualities
@@ -75,23 +76,24 @@
     color: #555555;
     margin-left: 20px;
     margin-bottom: 60px;
-    padding-top: 30px;
+    margin-top: 25px;
 }
 
 .content
 {
-    margin-top: -500px;
+    margin-top: -495px;
     width: 390px;
 }
 
 .line
 {
-    margin-top: 25px;
+    margin-top: 33px;
     background-color: #45c3aa;
-    margin-left: 390px;
+    margin-left: 393px;
     width: 57px;
     height: 6px;
     border-radius: 3px;
+    margin-bottom: 52px;
 }
 
 .navigation
