@@ -170,12 +170,12 @@
     margin-top: 916px;
     font: 300 36px/42px Open Sans, sans-serif;
     color: #333333;
+    margin-bottom: 41px;
 }
 
 .main_block_films
 {
     
-    padding-top: 42px;
     width: 1200px;
 }
 
@@ -229,7 +229,8 @@
 
 .button_all_films
 {    
-    margin-top: 300px;
+    float: left;
+    margin-top: 65px;
     width: 220px;
     margin-left: 480px;
 }
