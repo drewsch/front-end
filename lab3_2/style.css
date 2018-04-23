@@ -1,12 +1,16 @@
 body
 {
     width: 100%;
+    height: 100%;
 }
 .menu
 {     
-    width: 960px;
+    width: 96%;
+    max-width: 960px;
     margin: 0 auto;
-    height: 50px;
+    height: 0.1%;
+    max-height: 50px;
+   /* height: 50px;*/
 }
 
 .button
@@ -33,28 +37,33 @@ body
 .img_backgr
 {
     width: 100%;
-    height: 400px;
+    height: 40%;
+    min-height: 400px;
 }
 
 .content
 {   
     position: relative;
     margin: 0 auto;
-    width: 960px;
+    width: 96%;
+    max-width: 960px;
 }
 
 .left_block
 {
     float: left;
-    width: 330px;
+    width: 33%; 
+    max-width: 330px;
 }
 
 .img_panda
 {
     
     float: left;
-    height: 350px;
-    width: 330px;
+    height: 35%;
+    min-height: 350px;
+    width: 33%;
+    min-width: 330px;
     margin-top: -190px;
 } 
 
@@ -68,7 +77,8 @@ body
     font: 600 24px/32px Open Sans, sans-serif;
     margin-top: 0px;
     color: #15a98b;
-    height: 260px;
+    height: 26%;
+    min-height: 260px;
 }
 
 .block
@@ -87,7 +97,8 @@ body
 .right_block
 {   
     margin-left: 390px;
-    width: 590px;
+    width: 59%;
+    min-width: 590px;
     position: absolute;
     margin-top: -134px;
 }
@@ -178,15 +189,18 @@ body
 
 .main_block_films
 {
-    width: 1200px;
+    width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
     padding-bottom: 113px;
 }
 
 .img_fastandfurious
 {
-    height: 190px;
-    width: 286px;  
+    height: 19%;
+    min-height: 190px;
+    width: 28.6%;
+    min-width: 286px;
 }
 
 .movie_titles
@@ -260,7 +274,8 @@ body
 .form
 {
     text-align: center;
-    width: 700px;
+    width: 70%;
+    max-width: 700px;
     margin: 0 auto;
 }
 
@@ -287,12 +302,14 @@ body
 .registration
 {
     width: 560px;
+   
     margin: 0 auto;
     text-align: left;
     font: 300 20px/32px Open Sans, sans-serif;
 }
 
-input:not([type="radio"]), select:not([type="radio"])
+input:not([type="radio"]),
+select:not([type="radio"])
 {
     width: 100%;
     height: 50px;
@@ -302,6 +319,11 @@ input:not([type="radio"]), select:not([type="radio"])
     margin-bottom: 32px;
 }
 
+input:focus,
+textarea:focus
+{
+    border-color: #15a98c;
+}
 .star
 {
     color: red;
