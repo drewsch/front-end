@@ -2,15 +2,15 @@ body
 {
     width: 100%;
     height: 100%;
+   
 }
 .menu
 {     
+    margin: 0 auto;
     width: 96%;
     max-width: 960px;
-    margin: 0 auto;
-    height: 0.1%;
-    max-height: 50px;
-   /* height: 50px;*/
+    height: 50px;
+    min-width: 400px;
 }
 
 .button
@@ -37,7 +37,7 @@ body
 .img_backgr
 {
     width: 100%;
-    height: 40%;
+    height: 400px;
     min-height: 400px;
 }
 
@@ -60,8 +60,7 @@ body
 {
     
     float: left;
-    height: 35%;
-    min-height: 350px;
+    height: 350px;
     width: 33%;
     min-width: 330px;
     margin-top: -190px;
@@ -77,7 +76,7 @@ body
     font: 600 24px/32px Open Sans, sans-serif;
     margin-top: 0px;
     color: #15a98b;
-    height: 26%;
+    height: 260px;
     min-height: 260px;
 }
 
@@ -197,7 +196,7 @@ body
 
 .img_fastandfurious
 {
-    height: 19%;
+    height: 190px;
     min-height: 190px;
     width: 28.6%;
     min-width: 286px;
@@ -260,7 +259,7 @@ body
     display: block;
     background-color: #15a98c;
     border-radius: 8px;
-    font: 19px/ 50px "georgia";
+    font: 19px/ 50px georgia;
     height: 50px;
 }
 
@@ -269,6 +268,10 @@ body
     font: 300 36px/42px Open Sans, sans-serif;
     color: #333333;
     margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    margin-bottom: 89px;
 }
 
 .form
@@ -279,36 +282,15 @@ body
     margin: 0 auto;
 }
 
-.line-left
-{
-    width: 200px;
-    height: 1px;
-    border-radius: 1px;
-    color: #c4c4c4;
-    float: left;
-    background-color: aqua;
-  
-}
-
-.line-right
-{
-    width: 200px;
-    height: 1px;
-    background-color: aqua;
-    color: #c4c4c4;
-    border-radius: 1px;
-}
-
 .registration
 {
     width: 560px;
-   
     margin: 0 auto;
     text-align: left;
     font: 300 20px/32px Open Sans, sans-serif;
 }
 
-input:not([type="radio"]),
+/*input:not([type="radio"]),
 select:not([type="radio"])
 {
     width: 100%;
@@ -323,7 +305,8 @@ input:focus,
 textarea:focus
 {
     border-color: #15a98c;
-}
+}*/
+
 .star
 {
     color: red;
@@ -350,6 +333,69 @@ textarea
 {
     margin-top: 53px;
 }
+
+h5:before,
+h5:after 
+{
+  content: '';
+  display: inline-block;
+  position: relative;
+  top: -1px;
+  width: 200px;
+  height: 1px;
+  vertical-align: middle;
+  background: #c4c4c4;
+}
+
+h5:before 
+{
+  left: -10px;
+  margin-left: -50%;
+}
+
+h5:after
+{
+  left: 10px;
+  margin-right: -50%;
+}
+
+.submit
+{
+    margin-top: 50px;
+    width: 220px;
+    height: 50px;
+    background: #15a98c;
+    font: 300 19px/32px Georgia; 
+    border-radius: 8px;
+    color: #f5f5f5;
+}
+
+.input
+{
+    width: 100%;
+    height: 50px;
+    border: 2px solid #c9c9c9;
+    font: 300 18px/32px Open Sans, sans-serif;
+    color: #555555;
+    margin-bottom: 32px; 
+}
+
+.input:focus,
+textarea:focus
+{
+    border-color: #15a98c;
+}
+
+.select_country
+{
+    width: 100%;
+    height: 50px;
+    border: 2px solid #c9c9c9;
+    font: 300 18px/32px Open Sans, sans-serif;
+    color: #555555;
+    margin-bottom: 32px;
+}
+
 
 
 
