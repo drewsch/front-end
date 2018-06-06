@@ -1,16 +1,12 @@
 body
 {
     width: 100%;
-    height: 100%;
-   
 }
 .menu
 {     
     margin: 0 auto;
-    width: 96%;
-    max-width: 960px;
+    width: 960px;
     height: 50px;
-    min-width: 400px;
 }
 
 .button
@@ -18,7 +14,8 @@ body
     text-decoration: none;
     color: #333333;
     display: inline-block;
-    padding: 10px 30px 30px 30px;
+    height: 50px;
+    padding: 10px 30px 0 30px;
     text-align: center;
     font: 300 19px/32px "Georgia";
 }
@@ -38,22 +35,20 @@ body
 {
     width: 100%;
     height: 400px;
-    min-height: 400px;
 }
 
 .content
 {   
     position: relative;
     margin: 0 auto;
-    width: 96%;
-    max-width: 960px;
+    width: 960px;
 }
 
 .left_block
 {
     float: left;
-    width: 33%; 
-    max-width: 330px;
+    width: 330px; 
+    margin-top: 130px;
 }
 
 .img_panda
@@ -61,30 +56,27 @@ body
     
     float: left;
     height: 350px;
-    width: 33%;
-    min-width: 330px;
+    width: 330px;
     margin-top: -190px;
 } 
 
 .information
 {
     margin-top: 212px;
+    
 }
 
 .title
 {
     font: 600 24px/32px Open Sans, sans-serif;
-    margin-top: 0px;
     color: #15a98b;
     height: 260px;
-    min-height: 260px;
 }
 
 .block
 {
     font: 300 19px/36px Georgia;
     color: #555555;
-    margin-left: 20px;
     margin-top: 30px;
 }
 
@@ -96,15 +88,13 @@ body
 .right_block
 {   
     margin-left: 390px;
-    width: 59%;
-    min-width: 590px;
-    position: absolute;
+    width: 590px;
+    
     margin-top: -134px;
 }
 
 .citations
 {
-    margin-top:  0px;
     color: #f5f5f5;
     font: italic 28px/42px Georgia;
 }
@@ -124,6 +114,11 @@ body
     color: #333333;
 }
 
+li
+{
+    margin-left: 20px;
+}
+
 .line
 {
     margin-top: 34px;
@@ -135,7 +130,8 @@ body
 
 .description
 {
-    width: 500px;
+   
+    width: 100%;
     font: 400 19px/32px Georgia;
     color: #555555;
     margin-top: 52px;
@@ -180,7 +176,7 @@ body
 
 .favorite_film
 {
-    margin-top: 916px;
+    margin-top: 117px;
     font: 300 36px/42px Open Sans, sans-serif;
     color: #333333;
     margin-bottom: 41px;
@@ -188,8 +184,8 @@ body
 
 .main_block_films
 {
-    width: 100%;
-    max-width: 1200px;
+    width: 1200px;
+    
     margin: 0 auto;
     padding-bottom: 113px;
 }
@@ -197,9 +193,9 @@ body
 .img_fastandfurious
 {
     height: 190px;
-    min-height: 190px;
-    width: 28.6%;
-    min-width: 286px;
+    
+    width: 286px;
+   
 }
 
 .movie_titles
@@ -247,8 +243,13 @@ body
     margin-top: 65px;
     width: 220px;
     margin-left: 480px;
-    
-    
+    background-color: #15a98c;
+    border-radius: 8px;
+}
+
+.button_all_films:hover
+{
+    background-color: #098d72;    
 }
 
 .all_films
@@ -257,11 +258,12 @@ body
     text-decoration: none;
     color: #ffffff;
     display: block;
-    background-color: #15a98c;
     border-radius: 8px;
     font: 19px/ 50px georgia;
     height: 50px;
 }
+
+            /*форма*/
 
 .write_me
 {
@@ -269,6 +271,7 @@ body
     color: #333333;
     margin: 0 auto;
     overflow: hidden;
+    
     position: relative;
     text-align: center;
     margin-bottom: 89px;
@@ -277,8 +280,8 @@ body
 .form
 {
     text-align: center;
-    width: 70%;
-    max-width: 700px;
+    width: 700px;
+    
     margin: 0 auto;
 }
 
@@ -334,8 +337,8 @@ textarea
     margin-top: 53px;
 }
 
-h5:before,
-h5:after 
+h5::before,
+h5::after 
 {
   content: '';
   display: inline-block;
@@ -359,6 +362,10 @@ h5:after
   margin-right: -50%;
 }
 
+.submit:hover
+{
+    background-color: #098d72;
+}
 .submit
 {
     margin-top: 50px;
@@ -372,6 +379,7 @@ h5:after
 
 .input
 {
+    
     width: 100%;
     height: 50px;
     border: 2px solid #c9c9c9;
@@ -396,6 +404,232 @@ textarea:focus
     margin-bottom: 32px;
 }
 
+@media only screen and (max-width: 960px)
+{
+  .left_block, .right_block
+  {
+      clear: both;
+  }
+  
+  .left_block
+  {
+      padding-bottom: 20px;
+      width: 100%;
+      margin: auto;
+      display: block;
+  }
+  
+  .information
+  {
+      width: 100%;
+  }
+  
+  .block
+  {
+      display: inline-block;
+      width: 45%;
+      margin: 2%;
+      
+  }
+  
+  .right_block
+  {
+      margin: -30px auto 0 ;
+      width: 80%; 
+  }
+  
+  .citations, .author
+  {
+      
+      display: none;
+  }
+  
+  .description
+  {
+      width: 100%;
+  }
+  
+  .img_panda
+  {
+      width: 50%;
+      margin-top: -190px;
+  }
+  
+  .main_block_films
+  {
+      width: 100%;
+  }
+  .button_all_films
+  {
+      margin: 50px  0;
+  }
+  .form
+  {
+      width: 100%;
+  }
+  .content
+  {
+      width: 80%;
+      margin: auto;
+  }
+  .menu .button
+  {
+    display: block;  
+    text-align: center;
+  }
+  
+  .menu
+  {
+      height: 100%;
+      width: 100%;
+  }
+  
+}
+
+@media only screen and (max-width: 960px)
+{
+  
+    .main_block_films
+    {
+        width: 100%;
+        margin: auto;
+    }
+    .film
+    {
+        width: 80%;
+        margin: auto;
+       /* clear: both;*/
+    }
+    
+    .text_films
+    {
+        width: 100%;
+    }
+    .img_fastandfurious, .img_irresistible, .img_jackr, .img_mission
+    {
+        width: 90%;
+        
+    }
+    
+}
+@media only screen and (max-width: 1220px) and (min-width: 650px)
+{
+  .film
+  {
+      width: 33%;
+      padding: 2%;
+      box-sizing: border-box;
+  }
+  
+  .menu
+  {
+      width: 80%;
+      margin: auto;
+  }
+  .button_all_films
+  {
+      display: none;
+  }
+  .img_panda
+  {
+      padding-left: 25%;
+  }
+}
+
+@media only screen and (max-width: 760px)
+{
+  h5:before,
+  h5:after 
+  {
+      display: none;
+  }
+  .form
+  {
+      width: 80%;
+  }
+  
+  .registration
+  {
+      width: 100%;
+  }
+  .block
+  {
+      padding-bottom: 30px;
+      width: 50%;
+      display: block;
+      margin: auto;
+  }
+  .right_block
+  {
+      width: 100%;
+  }
+  
+  .input, .message_form
+  {
+      width: 99%;
+  }
+  .img_panda
+  {
+      width: 50%;
+      padding-left: 25%;
+      
+  }
+  .button_all_films
+  {
+      display: none;
+  }
+  
+}
+
+@media only screen and (max-width: 450px)
+{
+  .block
+  
+  {
+      width: 100%;
+    
+  }
+  .img_panda
+  {
+      width: 100%;
+      
+      padding-left: 0;
+  }
+  
+}
+
+@media only screen and (max-width: 1220px) and (min-width: 960px)
+{
+  .description
+  {
+      width: 90%;
+  }
+  .main_block_films
+  {
+      width: 80%;  
+  }
+  .img_panda
+  {
+      padding: 0;
+  }
+}
+
+@media only screen and (max-width: 1150px)
+{
+  .film
+  {
+      width: 50%;
+  }
+  .text_films
+  {
+      width: 100%;
+  }
+   .img_fastandfurious, .img_irresistible, .img_jackr, .img_mission
+    {
+        width: 90%;
+        
+    }
+}
 
 
 
